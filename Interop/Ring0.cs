@@ -14,7 +14,7 @@ using System.Text;
 using System.Threading;
 
 
-namespace Ring0DriverLoader.Interop
+namespace PmcReader.Interop
 {
     internal static class Ring0
     {
@@ -113,7 +113,7 @@ namespace Ring0DriverLoader.Interop
 
         private static bool ExtractDriver(string fileName)
         {
-            string resourceName = nameof(Ring0DriverLoader) + "." + nameof(Interop) + "." + "WinRing0x64.sys";
+            string resourceName = nameof(PmcReader) + "." + nameof(Interop) + "." + "WinRing0x64.sys";
 
             string[] names = GetAssembly().GetManifestResourceNames();
             byte[] buffer = null;

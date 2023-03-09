@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 using System.Security.AccessControl;
 using Microsoft.Win32.SafeHandles;
 
-namespace Ring0DriverLoader.Interop
+namespace PmcReader.Interop
 {
     internal class KernelDriver
     {

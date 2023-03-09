@@ -11,7 +11,7 @@ using Microsoft.Win32.SafeHandles;
 
 // ReSharper disable InconsistentNaming
 
-namespace Ring0DriverLoader.Interop
+namespace PmcReader.Interop
 {
     public class Kernel32
     {

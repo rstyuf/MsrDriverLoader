@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 
 // ReSharper disable InconsistentNaming
 
-namespace Ring0DriverLoader.Interop
+namespace PmcReader.Interop
 {
     internal class AdvApi32
     {

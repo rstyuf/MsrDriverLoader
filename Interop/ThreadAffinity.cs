@@ -6,7 +6,7 @@
 
 using System;
 
-namespace Ring0DriverLoader.Interop
+namespace PmcReader.Interop
 {
     internal static class ThreadAffinity
     {

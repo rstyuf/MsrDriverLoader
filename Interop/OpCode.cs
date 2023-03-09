@@ -8,7 +8,7 @@ using System;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-namespace Ring0DriverLoader.Interop
+namespace PmcReader.Interop
 {
     internal static class OpCode
     {

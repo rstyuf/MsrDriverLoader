@@ -1,9 +1,9 @@
-﻿using Ring0DriverLoader.Interop;
+﻿using PmcReader.Interop;
 using System;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace Ring0DriverLoader
+namespace PmcReader
 {
  
     static class Program
