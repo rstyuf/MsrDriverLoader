@@ -309,6 +309,8 @@ namespace PmcReader.Interop
             {
                 uint refCount = 0;
                 _driver.DeviceIOControl(Interop.Ring0.IOCTL_OLS_GET_REFCOUNT, null, ref refCount);
+                //Console.WriteLine("DBG::--- refCount:{0:N}", refCount);
+
                 _driver.Close();
 
                 if (refCount <= 1)

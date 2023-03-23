@@ -38,6 +38,8 @@ namespace PmcReader
             else if (args[0] == "unload")
             {
                 Console.WriteLine("--- Unloading driver ---");
+                Ring0.Open();
+
                 Ring0.Close();
             }
             /*else if (args[0] == "keep_open")
@@ -55,7 +57,7 @@ namespace PmcReader
             else
             {
                 Console.WriteLine("Need an argument: Either 'load' or 'unload' or 'keep_open'");
-                Console.WriteLine("Note: 'unload' currently doesn't work yet so 'keep_open' is recommended");
+                //Console.WriteLine("Note: 'unload' currently doesn't work yet so 'keep_open' is recommended");
             }
 
         }
